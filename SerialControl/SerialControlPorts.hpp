@@ -16,6 +16,7 @@ public:
 	void begin();
 	void writeAnalogOutPorts();
 	unsigned char getVal(byte pinIndex);
+	void updateVals();
 	void writeVal(byte pinIndex, unsigned char value);
 	byte analogOutLookup(byte pin);
 };
