@@ -27,6 +27,8 @@ void AnalogOutPorts::begin()
 	panServo.attach(9);
 	tiltServo.attach(12);
 	Serial.println("attached");
+	panServo.write(currPan);
+	tiltServo.write(currTilt);
 }
 
 /**

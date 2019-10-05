@@ -27,7 +27,7 @@ void setup() {
 
 void loop() {
   // read the next serial message
-  delay(30); // give the serial message ample time to be written
+  delay(15); // give the serial message ample time to be written
   byte numBytes = readSerial(incomingBytes);
   ports.updateVals();
   
